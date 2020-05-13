@@ -1,18 +1,17 @@
-const express = require('express');
+// const express = require('express');
 
-const postsRouter = require('./Posts/postsRouter.js');
+// const postsRouter = require('./Posts/postsRouter.js');
 
-const server = express();
+// const server = express();
 
-server.use(express.json());
+// server.use(express.json());
 
-server.use('/api/posts', postsRouter);
+// server.use('/api/posts', postsRouter);
 
-server.get('/', (req, res) => {
-    res.send(`
-        <h2>JP's API</h2>
-        <p>Welcome to the Jose's First Blog Posts API</p>
-      `);
-  });
+// server.get('/', (req, res) => {
+//     res.send(`
+//         <p>Welcome to the Jose's First Blog Posts API</p>
+//       `);
+//   });
 
-  module.exports = server;
+//   module.exports = server;
